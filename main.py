@@ -22,5 +22,6 @@ for key, value in dct.items():
                 inner_value_tuple = tuple(inner_value)
                 new_dict[inner_value_tuple] = inner_value
 
+
 print(new_dict)
 print(new_dict.keys())
